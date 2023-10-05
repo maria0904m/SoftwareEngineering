@@ -1,10 +1,13 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 int main()
 {
     int i = 0;
 
     printf("Start while loop\n");
+
+
+    // I was here
 
     do
     {
