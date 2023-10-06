@@ -1,5 +1,5 @@
-#include <iostream>
-#include <iomanip>
+#include <stdio.h>
+#include <stdio.h>
 
 //This is a prefix needed for cout and endl
 using namespace std;
