@@ -4,15 +4,17 @@ int main()
 {
     // ************************ Using puts ******************************** 
     puts("Hello World!");   //Write Hello World to the terminal
-
+    puts("Hello World");
 
     // ************************ Using printf ******************************* 
     printf("Hello Everyone.\n We are using C.\n How are things?\n");
     // TASK (a) - remove \n from the string above - what does this change? 
+    printf("Hello Everyone.\n We are using C.\n How are the thing?\n");
     
     // ******************* Using printf placeholders *********************** 
     int age = 23;
     printf("My age is %d\n", age);
+
 
     // Some other placeholders include %c for character and %f for floating point
     float radius = 10.0f;
@@ -21,7 +23,8 @@ int main()
     // TASK(b) - Use printf to display the value of the variable area. Look at the lecture slides and find out how to limit this to 3 decimal places
     // Write solution here
 
-    printf("The area = 5.3 % f\n", area);
+    printf("The area = 5.3 %f\n", area);
+    
     //
 
     // You can output complex strings to the terminal
