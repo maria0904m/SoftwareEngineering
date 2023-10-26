@@ -10,7 +10,7 @@ int main()
 
     // We can also read a stream of bytes back from the terminal
     int newCode;
-    puts("Please enter a new numberical value: ");
+    puts("Please enter a new numerical value:");
     scanf_s("%d", &newCode);
     printf("The new code is COMP%d\n", newCode);
 
@@ -27,7 +27,7 @@ int main()
     fprintf(stdout, "The function fprintf is just the same as printf, only we explicitly provide the address of the stream\n");
 
     //The same applies for input
-    puts("Please enter a new module code number: ");
+    puts("Please enter a new module code number:");
     fscanf_s(stdin, "%d", &newCode);
 
     // *****************************************************************************
