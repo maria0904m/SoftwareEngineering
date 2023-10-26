@@ -6,7 +6,7 @@ int main()
 {
 
     // (i) Open for read with ifstream
-    string fn = "myfile.txt";
+    string fn = "myfile";
     ifstream inputStream;
     inputStream.open(fn);
     if (!inputStream.is_open()) {
